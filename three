@@ -1,0 +1,8 @@
+<VirtualHost *:80>
+	ServerName  three.daviddoran.com
+	ServerAlias www.three.daviddoran.com
+
+	# Indexes and Directory Root
+	DirectoryIndex index.php index.html index.htm
+	DocumentRoot /var/daviddoran/projects/three/webroot
+</VirtualHost>
